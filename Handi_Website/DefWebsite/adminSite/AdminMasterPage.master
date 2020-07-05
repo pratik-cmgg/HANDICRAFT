@@ -1,0 +1,129 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="AdminMasterPage.master.cs" Inherits="adminSite_AdminMasterPage" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+   
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+   <link href="../bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <link href="../font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+	<link href="../css/nivo-lightbox.css" rel="stylesheet" /><link href="../css/nivo-lightbox-theme/default/default.css" rel="stylesheet" />
+
+<link href="../bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <link href="../css/style.css" rel="stylesheet" />
+	<link href="../css/animate.css" rel="stylesheet" />
+    <script src="../js/jquery-3.1.0.js"></script>
+
+</head>
+        <body data-spy="scroll">
+
+   
+    <div class="container">
+        
+        <ul id="gn-menu" class="gn-menu-main" style="margin-top:15px">
+            <li class="gn-trigger">
+
+                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                <nav class="gn-menu-wrapper">
+                    <div class="gn-scroller">
+                        <ul class="gn-menu">
+                            <li class="gn-search-item">
+<%--                                <input placeholder="Search" type="search" class="gn-search"/>--%>
+                                <%--<a href="AddNewSubCategory.aspx"><span  class="glyphicon glyphicon-plus" style="margin-left:10px">&nbsp;&nbsp;Add new SubCategory</span></a>--%>
+                            </li>
+                            <li>
+                                <a href="addNewProducts.aspx"><span class="glyphicon glyphicon-plus"style="margin-left:10px">&nbsp;&nbsp;Add new Products</span></a>
+                            </li>
+                              <li><a href="viewCategory.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View Category</span></a></li>
+
+                             <li><a href="viewSubCategory.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View SubCategory</span></a></li>
+                            
+                            <li><a href="viewProducts.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View Products</span></a></li>
+                            
+                           <li><a href="viewOrders.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View Orders</span></a></li>
+                            
+                            <li><a href="viewOrderedProducts.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View Ordered Products</span></a></li>
+                           
+                            <li><a href="ViewRegisteredUsers.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View Registered Users</span></a></li>
+                           
+                             <li><a href="viewFeedback.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View Feedback</span></a></li>
+                           
+                           <li><a href="viewJoinRequest.aspx"><span class="glyphicon glyphicon-eye-open"style="margin-left:10px">&nbsp;&nbsp;View Join Request</span></a></li>
+                            
+                          
+                        </ul>
+                    </div>
+                     </nav>
+            </li>
+            <li style="float:left"><a href="AdminPage.aspx" style="float:left;color:#ff6600;margin-top:14px;float:left"><h3><u>ADMINSITE</u></h3>
+                
+              </a>
+
+                
+            </li>
+            <li>
+               <h4 style="font-family:'Sitka Small';float:left;color:#ff6600;margin-top:14px;float:left"><b><i><a href="../home.aspx">Goto Client Side</a>&nbsp;&nbsp;&nbsp;&nbsp;</i></b></h4>
+           </li>
+             <li><a href="logout.aspx">&nbsp;&nbsp;Logout</a></li>
+    
+           <li>
+               <h4 style="font-family:'Sitka Small';float:left;color:#ff6600;margin-top:14px;float:left"><b><i>WELCOME,ADMIN!!!&nbsp;&nbsp;&nbsp;&nbsp;</i></b></h4>
+           </li>
+            
+           
+        </ul>
+    </div>
+    
+
+   
+    <div>
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder2" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+
+        </div>
+        <script src="bootstrap/js/bootstrap.min.js"></script>
+     <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/gnmenu.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/stellar.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+       
+        
+ 
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+   <script src="../bootstrap/js/bootstrap.min.js"></script>
+     <!-- Core JavaScript Files -->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/jquery.easing.min.js"></script>
+    <script src="../js/classie.js"></script>
+    <script src="../js/gnmenu.js"></script>
+    <script src="../js/jquery.scrollTo.js"></script>
+    <script src="../js/nivo-lightbox.min.js"></script>
+    <script src="../js/stellar.js"></script>
+            <script src="../js/custom.js"></script>
+ </body>
+     
+</html>

@@ -1,0 +1,133 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+
+<!DOCTYPE html>
+
+
+<a href="images/LightingNLamps/">images/LightingNLamps/</a>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+   
+
+
+
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta name="description" content=""/>
+    <meta name="author" content=""/>
+
+    <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
+	<link href="css/nivo-lightbox.css" rel="stylesheet" />
+	<link href="css/nivo-lightbox-theme/default/default.css" rel="stylesheet" type="text/css" />
+	<link href="css/animate.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet"/>
+	<link href="css/default.css" rel="stylesheet"/>
+    <link href="bootstrap/css/bootstrap.css" rel="stylesheet" />
+    <script src="js/jquery-3.1.1.min.js"></script>
+    <script src="js/jquery-3.1.0.js"></script>
+
+
+    <style type="text/css">
+        .auto-style1 {
+            width: 46px;
+        }
+        .auto-style2 {
+            width: 94px;
+        }
+    </style>
+
+
+</head>
+   
+               
+
+
+    <body data-spy="scroll">
+
+    <div class="container">
+        
+        <ul id="gn-menu" class="gn-menu-main"  style="height:75px">
+            <li class="gn-trigger">
+
+                <a class="gn-icon gn-icon-menu"><span>Menu</span></a>
+                <nav class="gn-menu-wrapper" >
+                    <div class="gn-scroller">
+                        <ul class="gn-menu">
+                            <li class="gn-search-item">
+<%--                                <input placeholder="Search" type="search" class="gn-search"/>--%>
+                                <a href="home.aspx"><span  class="glyphicon glyphicon-home" style="margin-left:10px">&nbsp;&nbsp;HOME</span></a>
+                            </li>
+                            <li>
+                                <a href="AboutUs.aspx"><span class="glyphicon glyphicon-th-list"style="margin-left:10px">&nbsp;&nbsp;ABOUT US</span></a>
+                      </li>
+                            <li><a href="category.aspx"><span class="glyphicon glyphicon-plus"style="margin-left:10px">&nbsp;&nbsp;CATEGORY</span></a></li>
+                            <li><a href="ContactUs.aspx"><span class="glyphicon glyphicon-map-marker"style="margin-left:10px">&nbsp;&nbsp;CONTACT US</span></a></li>
+                           <li><a href="login.aspx"><span class="glyphicon glyphicon-pencil"style="margin-left:10px">&nbsp;&nbsp;LOGIN</span></a></li>
+
+                           
+                        </ul>
+                    </div>
+                     </nav>
+            </li>
+            <li>              <a href="home.aspx" style="font-family:Comic Sans MS;float:left;color:#ff6600"><h3>HANDICRAFT'S</h3>
+                
+                <h4 style="font-family:Lucida Calligraphy;color:#ff8533;font-size:x-small;margin-left:10px">WORLD</h4></a>
+               
+
+                
+            </li>
+             <li><b><i><asp:Label ID="lbluser" runat="server">   </asp:Label></i></b></li>
+          
+           
+           
+        </ul>
+    </div>
+    
+
+   
+    
+
+
+   
+    <div>
+
+
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+       
+
+       <script src="bootstrap/js/bootstrap.min.js"></script>
+     <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>
+    <script src="js/classie.js"></script>
+    <script src="js/gnmenu.js"></script>
+    <script src="js/jquery.scrollTo.js"></script>
+    <script src="js/nivo-lightbox.min.js"></script>
+    <script src="js/stellar.js"></script>
+
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+ 
+ 
+
+
+    <!--/.Footer Links-->
+
+    <hr/>
+
+    
+
+    
+
+  
+ 
+
+</body>
+   
+</html>
